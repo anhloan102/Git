@@ -1,1 +1,17 @@
+- Kiểm tra version của git đang dùng
+	$ git -v hoặc $ git --version
+- Hiển thị các lệnh help
+	$ git -h hoặc $ git --help
+- Cấu hình git
+	+ [path]/etc/gitconfig: Tham số khai báo trong file này có hiệu lực cho mọi user, dự án. Lệnh tương tác thiết lập với tham số --system
+	+ ~/.gitconfig or ~/.config/git/config: Thiết lập có hiệu lực với User hiện tại của hệ thống, thực hiện với tham số --global
+	+ .git/config cấu hình lưu ở chính thư mục .Git của dự án (repository), chỉ có tác dụng cho Repository này.
+	Tên trên hệ thống Git:
+		+ git config --global user.name "username"
+	Email của bạn trên Git:
+		+ git config --global user.email "email@gmail.com"
+	Hiện thị các tham số thiết lập Git: 
+		+ git config --list
+		
+
 
